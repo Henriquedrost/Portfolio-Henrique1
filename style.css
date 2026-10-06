@@ -1,0 +1,25 @@
+body {
+font-size: 16px;
+background-color: #095256;
+}
+
+button {
+  background-color: #087F8C;
+  color: white;
+  padding: 20px 250px;
+  border-radius: 4px;
+  margin: 40px;
+  position: relative;
+  border-color: #087F8C;
+  font-size: 30px;
+}
+h1 {
+  background-color: #087F8C;
+}
+
+footer {
+    background-color: #087F8C;
+    position: fixed;bottom: 0;
+    font-size: 20px;
+   
+}
