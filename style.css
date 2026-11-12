@@ -1,25 +1,80 @@
-body {
-font-size: 16px;
-background-color: #095256;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-button {
-  background-color: #087F8C;
-  color: white;
-  padding: 20px 250px;
-  border-radius: 4px;
-  margin: 40px;
-  position: relative;
-  border-color: #087F8C;
-  font-size: 30px;
-}
-h1 {
-  background-color: #087F8C;
+nav{
+background-color: #087F8C;
+color: white;
+padding: 5px;
+width: 100%;
 }
 
-footer {
+body{
+    background-color: #095256;
+}
+
+
+
+
+
+
+
+
+footer{
     background-color: #087F8C;
-    position: fixed;bottom: 0;
-    font-size: 20px;
-   
+    color: white;
+    padding: 5px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+
+
+/* .buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 280px;
+    position: relative;
+    top: 140px;
+    left:600px;
+    padding: 40px;
+} */
+/* 
+.button{
+    background-color: #087F8C;
+    width: 350px;
+    height: 50px;
+    padding: 50px;
+} */
+
+.homebuttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    gap: 20px;
+    top: 200px;
+    
+}
+
+a{
+    text-align: center;
+    background-color: #087F8C;
+    text-decoration: none;
+    color: white;
+}
+
+button{
+    background-color: #087F8C;
+    width: 350px;
+    height: 50px;
+    padding: 50px;
+    text-align: center;
 }
