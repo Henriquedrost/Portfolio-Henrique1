@@ -33,4 +33,29 @@ ul{
 .contact{
     text-align: center;
     color: white;
+    position: absolute;
+    top: 275px;
+    left:800px;
+}
+
+.contact1{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 400px;
+    left:725px;
+}
+
+.contact2{
+    position: absolute;
+    color: white;
+    left: 250px;
+    top: 275px;
+}
+
+.contact3{
+    position: absolute;
+    color: white;
+    left: 1350px;
+    top: 285px;
 }
