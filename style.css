@@ -25,7 +25,7 @@ body{
 footer{
     background-color: #087F8C;
     color: white;
-    padding: 5px;
+    padding: 40px;
     width: 100%;
     position: fixed;
     bottom: 0px;
@@ -77,4 +77,12 @@ button{
     height: 50px;
     padding: 50px;
     text-align: center;
+
+}
+
+.welkom{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 100px;
 }

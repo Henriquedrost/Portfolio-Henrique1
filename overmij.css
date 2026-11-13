@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+background-color: #087F8C;
+color: white;
+padding: 5px;
+width: 100%;
+}
+
+body{
+    background-color: #095256;
+}
+
+
+
+
+
+
+
+
+footer{
+    background-color: #087F8C;
+    color: white;
+    padding: 40px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+.projecten{
+    text-align: center;
+    color: white;
+}
+
+   ul{
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    gap: 20px;
+    
+    
+}

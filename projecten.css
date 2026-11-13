@@ -1,3 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 .projecten{
     text-align: center;
+    color: white;
+}
+
+nav{
+background-color: #087F8C;
+color: white;
+padding: 25px;
+width: 100%;
+}
+/* .home
+{
+    text-align: end;
+    color: white;
+} */
+
+body{
+    background-color: #095256;
+}
+
+footer{
+    background-color: #087F8C;
+    color: white;
+    padding: 35px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+.img{
+    width: 100%;
+    left: 1000px;
+    gap: 20px;
+   justify-content: center;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
+ul{
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    gap: 20px;
+    
+    
 }
