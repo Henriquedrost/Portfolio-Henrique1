@@ -35,13 +35,36 @@ footer{
 .projecten{
     text-align: center;
     color: white;
+    position: relative;
+    top: 100px;
 }
 
-   ul{
+   /* ul{
     text-align: center;
     text-decoration: none;
     list-style: none;
     gap: 20px;
     
     
+} */
+
+.tekstovermij{
+color: white;
+text-align: center;
+position: relative;
+top: 200px;
+    
+}
+
+.navHeader {
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    border-bottom: 1px solid #087F8C;
 }
