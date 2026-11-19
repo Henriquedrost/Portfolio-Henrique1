@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 
-nav{
-background-color: #087F8C;
-color: white;
-padding: 5px;
-width: 100%;
+nav {
+    background-color: #087F8C;
+    color: white;
+    padding: 5px;
+    width: 100%;
 }
 
-body{
+body {
     background-color: #095256;
 }
 
@@ -22,7 +22,7 @@ body{
 
 
 
-footer{
+footer {
     background-color: #087F8C;
     color: white;
     padding: 40px;
@@ -54,24 +54,24 @@ footer{
     padding: 50px;
 } */
 
-.homebuttons{
+.homebuttons {
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
     gap: 20px;
     top: 200px;
-    
+
 }
 
-a{
+a {
     text-align: center;
     background-color: #087F8C;
     text-decoration: none;
     color: white;
 }
 
-button{
+button {
     background-color: #087F8C;
     width: 350px;
     height: 50px;
@@ -80,9 +80,270 @@ button{
 
 }
 
-.welkom{
+.welkom {
     text-align: center;
     color: white;
     position: relative;
     top: 100px;
+}
+
+/* contct pagina */
+
+nav {
+    background-color: #087F8C;
+    color: white;
+    padding: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    background-color: #095256;
+}
+
+footer {
+    background-color: #087F8C;
+    color: white;
+    padding: 35px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+ul {
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    gap: 20px;
+}
+
+.contact {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 275px;
+    left: 800px;
+}
+
+.contact1 {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 400px;
+    left: 725px;
+}
+
+.contact2 {
+    position: absolute;
+    color: white;
+    left: 250px;
+    top: 275px;
+}
+
+.contact3 {
+    position: absolute;
+    color: white;
+    left: 1350px;
+    top: 285px;
+}
+
+/* mijn projecten */
+
+
+body {
+    background-color: #095256;
+}
+
+nav {
+    background-color: #087F8C;
+    color: white;
+    padding: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navHeader {
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    border-bottom: 1px solid #087F8C;
+}
+
+footer {
+    background-color: #087F8C;
+    color: white;
+    padding: 35px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+.projecten {
+    /* text-align: center; */
+    color: white;
+    position: relative;
+
+}
+
+
+.img {
+    width: 100%;
+    left: 1000px;
+    gap: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* interview */
+
+
+nav {
+    background-color: #087F8C;
+    color: white;
+    padding: 25px;
+    width: 100%;
+}
+
+body {
+    background-color: #095256;
+}
+
+footer {
+    background-color: #087F8C;
+    color: white;
+    padding: 35px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+ul {
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    gap: 20px;
+}
+
+.interview {
+    text-align: center;
+    color: white;
+}
+
+/* over mij */
+
+
+nav {
+    background-color: #087F8C;
+    color: white;
+    padding: 5px;
+    width: 100%;
+}
+
+body {
+    background-color: #095256;
+}
+
+
+.video-container {
+    color: white;
+
+}
+
+.foto-mij {
+    position: relative;
+    left: 1220px;
+    top: -420px;
+}
+
+table {
+    border-spacing: 0;
+    position: relative;
+
+    color: white;
+}
+
+td:first-child {
+    background-color: #087F8C;
+}
+
+th {
+    background-color: #087F8C;
+    padding: 20px;
+}
+
+td {
+    padding: 20px;
+}
+
+
+
+
+
+
+footer {
+    background-color: #087F8C;
+    color: white;
+    padding: 40px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+.projecten {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 100px;
+}
+
+/* ul{
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    gap: 20px;
+    
+    
+} */
+
+.tekstovermij {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 200px;
+
+}
+
+.navHeader {
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    border-bottom: 1px solid #087F8C;
 }
